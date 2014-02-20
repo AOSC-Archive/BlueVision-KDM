@@ -1,0 +1,7 @@
+[KdmGreeterTheme]
+Greeter=KDM-AOSC-Art.xml
+Name=BlueVision
+Description=Minimalist KDM theme with AOSC collected wallpaper. Based on "KDM theme Archlinux. Customizable backgrounds."
+Screenshot=screenshot.png
+Author=Jeff Bai <jeffbaichina@members.fsf.org>, Original Por: Neotreut - ivoje@autistici.org
+Copyright=GPLv3

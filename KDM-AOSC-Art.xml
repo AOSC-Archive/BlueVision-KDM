@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+
+<!-- By Ivoje Neotreut - ivoje@autistici.org - ivojeneotreut@gmail.com - GPLv3 -->
+
+<greeter id="theme">
+	<style  font="Verdana 12" base-alpha="0" disabled-base-alpha="0.25" disabled-highlight-alpha="0" frame="false" text-color="#333333"/>
+	
+	<!-- background -->
+	<item type="pixmap" id="background" background="true">
+	  <normal file="city.jpg"/>
+	  <pos x="0" y="0" width="100%" height="100%"/>
+	</item>
+	
+	<!-- loginbox -->
+	<item type="pixmap" id="loginbox">
+	  <normal file="KDM-Theme-loginbox.png"/>
+	  <pos x="0" y="0" width="100%" height="100%"/>
+	</item>
+	<!-- user input -->
+	<item type="rect">
+	  <pos anchor="c" x="50%" y="91%" width="265" height="20"/>
+	  <fixed>			
+	    <item type="entry" id="user-entry">
+	      <pos anchor="c" x="10" y="70%" width="210" height="20"/>	      
+	    </item>
+	    <item type="entry" id="pw-entry">
+              <pos anchor="c" x="255" y="70%" width="210" height="20"/>
+            </item>
+	  </fixed>
+	</item>
+
+	<!-- welcome-->
+	<item type="rect">
+	  <pos anchor="nw" x="50%" y="2%" width="180" height="20"/>
+	  <fixed>
+	    		    
+	    <item type="label">
+	      <pos anchor="c" x="0%" y="0%"/>
+	      <normal font="Verdana 12" color="#FFFFFF"/>
+	      <stock type="welcome-label"/>
+	    </item>	    
+	  </fixed>
+	</item>	
+	
+	
+	<!-- reloj -->
+	<item type="rect">
+	  <pos anchor="nw" x="15%" y="91%" width="180" height="20"/>
+	  <fixed>
+	    <item type="label">
+	      <pos anchor="c" x="0%" y="80%"/>
+	      <normal font="Verdana 12" color="#666666"/>
+	      <text>%c</text>
+	    </item>
+	  </fixed>
+	</item>
+	
+	<!-- kernel release -->
+	<item type="rect">
+	  <pos anchor="nw" x="85%" y="91%" width="180" height="20"/>
+	  <fixed>
+	    <item type="label">
+	      <pos anchor="c" x="0%" y="80%"/>
+	      <normal font="Verdana 12" color="#666666"/>
+	      <text>Kernel: %r</text>
+	    </item>
+	  </fixed>
+	</item>		
+	
+	<!-- botones -->
+	<item type="rect" id="settings">
+	  <pos anchor="c" x="50%" y="97%" width="46%" height="66"/>
+	  <fixed>
+	    
+	    <item type="pixmap" id="session_button" button="true">
+	      <normal file="Boton-Normal.png"/>
+	      <prelight file="Boton-Iluminado.png"/>
+	      <active file="Boton-Normal.png"/>
+	      <pos anchor="sw" x="10" y="0" />
+	    </item>
+	    
+	    <item type="pixmap" id="system_button" button="true">
+	      <normal file="Boton-Normal-2.png"/>
+	      <prelight file="Boton-Iluminado-2.png"/>
+	      <active file="Boton-Normal-2.png"/>
+	      <pos anchor="se" x="-10" y="0"  />
+	    </item>
+	    
+	  </fixed>
+	</item>
+
+	<item type="rect" id="caps-lock-warning">
+	  <pos anchor="c" x="15%" y="95%" width="350" height="20"/>
+	    <fixed>
+	      <item type="label" id="mesage">
+		<normal color="#aa1122" font="Verdana 14"/>
+		<pos anchor="s" x="50%" y="50%"/>
+		<stock type="caps-lock-warning"/>
+	      </item>	
+	    </fixed>
+	</item>
+
+	<item type="rect" id="pam-error-paceholder">
+	  <pos anchor="c" x="50%" y="98%" widht="615" height="200"/>
+	    <item type="label" id="dummy1">
+	      <normal alpha="0" color="#7f0000" font="Verdana 10"/>
+	    </item>
+	    <item type="label" id="pam-error">
+	      <pos anchor="c" x="50%" y="50%" expand="true"/>
+	      <normal alpha="0" color="ff0000" font="Verdana 10"/>
+	    </item>
+	</item>
+</greeter>
