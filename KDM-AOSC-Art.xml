@@ -19,13 +19,13 @@
 	</item>
 	<!-- user input -->
 	<item type="rect">
-	  <pos anchor="c" x="50%" y="91%" width="265" height="20"/>
+	  <pos anchor="c" x="50%" y="91%" width="50%" height="20"/>
 	  <fixed>			
 	    <item type="entry" id="user-entry">
-	      <pos anchor="c" x="10" y="70%" width="210" height="20"/>	      
+	      <pos anchor="c" x="37%" y="70%" width="40%" height="20"/>	      
 	    </item>
 	    <item type="entry" id="pw-entry">
-              <pos anchor="c" x="255" y="70%" width="210" height="20"/>
+              <pos anchor="c" x="72%" y="70%" width="40%" height="20"/>
             </item>
 	  </fixed>
 	</item>
