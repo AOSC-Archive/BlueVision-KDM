@@ -38,7 +38,7 @@
 	    <item type="label">
 	      <pos anchor="c" x="0%" y="0%"/>
 	      <normal font="Verdana 12" color="#FFFFFF"/>
-	      <stock type="welcome-label"/>
+              <text>Welcome to AnthonOS</text>
 	    </item>	    
 	  </fixed>
 	</item>	
@@ -63,7 +63,7 @@
 	    <item type="label">
 	      <pos anchor="c" x="0%" y="80%"/>
 	      <normal font="Verdana 12" color="#666666"/>
-	      <text>Kernel: %r</text>
+	      <text>Hostname: %h</text>
 	    </item>
 	  </fixed>
 	</item>		
